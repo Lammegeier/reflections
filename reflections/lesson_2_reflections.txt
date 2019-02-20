@@ -1,0 +1,8 @@
+Q. What happens when you initialize a repository? Why do you need to do it?
+
+A. It git-ifies the directory. Adds the relevant files, infrastructure so that files in the system can be tracked using the git tool.
+
+Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A. Repository is on the server (I think... though not in the exercises we have been doing). Working directory is where I am working at the minute. I may have created one new file which isn't in the repository, in my working directory. I may have made changes to another file. In the staging area, I can choose to add only one of these changes (or a selection of changes) and commit only those at that point.
+
