@@ -1,0 +1,50 @@
+Q. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A. Not enjoying the course. 
+As usual the faff and setup are harder than the actual content. 
+I should press a button and everything should be setup. 
+Apart from the thing I am actually learning. 
+Unless the course was called "Annoying configuration and faff". 
+Then it should include all this.
+
+Q. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A. If someone adds a change which breaks a program which has worked for a long time you can do two things: 
+1. Revert to the previous state and fix it. 
+(Or get a better understanding of what went wrong). 
+2. Apportion blame. 
+
+Q. What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+
+A. Pros of automatically saving: If you forget, or if there is a power outage, you don't lose as much work.
+
+Pros of manually saving: You choose a logical point to save, which makes far more sense for yourself or others when looking at that file's history.
+
+Q. Why do you think some version control systems, like Git, 
+allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+
+A. If you are saving a personal document, a word document, a photo etc,
+ it doesn't really relate to other files, it can be saved separately. 
+ Whereas files in a software system are interconnected. They are usually,
+  to a greater or lesser extent, coupled. 
+If you change one it affects another. 
+And the change itself has meaning for each file in the set which are changed, 
+so it is useful to view the set.
+
+Q. How can you use the commands git log and git diff to view the history of files?
+
+A. Git log shows a list of all the commits (in the repository), then we can take the ids of two of those commits and use them to compare the changes by using the line: git diff commitno1 commitno2. 
+In both cases, the editor shows only a small section of the list of commits (in log) or changes (in diff) but starting from the top / latest, so we can just use the arrow keys to scroll down the rest of it, and q to quit / return to terminal/bash.
+
+Q. How might using version control make you more confident to make changes that could break something?
+
+A. If you break something, you can revert to the previous, working code if needs be. You can tweak your changes, or discard and start again etc, with impunity.
+
+Q. Now that you have your workspace set up, what do you want to try using Git for?
+
+A. Version control. Stashing, Branching, Merging.
+
+
