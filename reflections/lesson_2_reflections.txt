@@ -6,3 +6,13 @@ Q. How is the staging area different from the working directory and the reposito
 
 A. Repository is on the server (I think... though not in the exercises we have been doing). Working directory is where I am working at the minute. I may have created one new file which isn't in the repository, in my working directory. I may have made changes to another file. In the staging area, I can choose to add only one of these changes (or a selection of changes) and commit only those at that point.
 
+Q. How can you use the staging area to make sure you have one commit per logical change?
+
+A. If you happen to do work which covers two areas, or you see something else whilst coding and fix a bug etc, you can sometimes stage the changes so that the two changes and the one bug fix can be in three different commits instead of lumped in together.
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A. If you are working on a codebase covering lots of customers with core functionality, but one manages to negotiate (pay for?) a specific feature for themselves. OR where one customer, because of different volumes or otherwise different uses of your application, discovers a defect that other customers don't get. You may be in the situation where you feel you have to try and fix it for them, but cannot risk fixing it for others in case your fix breaks something else.
+
+ 
+
