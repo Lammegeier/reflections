@@ -14,5 +14,7 @@ Q. What are some situations when branches would be helpful in keeping your histo
 
 A. If you are working on a codebase covering lots of customers with core functionality, but one manages to negotiate (pay for?) a specific feature for themselves. OR where one customer, because of different volumes or otherwise different uses of your application, discovers a defect that other customers don't get. You may be in the situation where you feel you have to try and fix it for them, but cannot risk fixing it for others in case your fix breaks something else.
 
- 
+Q. How do the diagrams help you visualize the branch structure?
+
+A. So far they don't. Found this explanation lightweight and difficult to follow. It's like the course has taken such a long time to explain all the parts, that I've forgotten what they are when its time to connect them. Seems if they had just taught the bits of that I need to know and nothing else, they could have done a better job in 5-10 mins than they have in hours. 
 
