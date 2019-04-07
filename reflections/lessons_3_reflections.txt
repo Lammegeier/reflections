@@ -1,6 +1,3 @@
-Q. Is Lesson 3 hard?!
-A. Yes as I have had a 1 month break due to hospital and work after lesson 2 so I've lost my thread a tad!
-
 Q. When would you want to use a remote repository rather than keeping all your work local?
 A. When working on a project with other developers, or from multiple computers/locations. I or we can edit remotely but upload to a central repository. Also helps not to lose work if any machine fails.
 
