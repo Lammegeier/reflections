@@ -16,5 +16,16 @@ A. If you are working on a codebase covering lots of customers with core functio
 
 Q. How do the diagrams help you visualize the branch structure?
 
-A. So far they don't. Found this explanation lightweight and difficult to follow. It's like the course has taken such a long time to explain all the parts, that I've forgotten what they are when its time to connect them. Seems if they had just taught the bits of that I need to know and nothing else, they could have done a better job in 5-10 mins than they have in hours. 
+A. So far they don't. Found this explanation lightweight and difficult to follow. It's like the course has taken such a long time to explain all the parts, that I've forgotten what they are when its time to connect them. Seems if they had just taught the bits of that I need to know and nothing else, they could have done a better job in 5-10 mins than they have in hours.
+
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A. The result is all the changes made in each branch are present in the post merge branch. (Trunk?)
+Why we represent it in the diagram on two different lines for each branch, with each commit shown linearly, is so that we can see which commits are in each branch, hence the vertical split into two lines, but also see the timestamp/timeline of each commit in each line/branch, and ideally against each other, so we know which commit happened when, in which branch, and what each commits parent commit was.
+
+Q. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A. In the cases where there are no conflicts, it saves a lot of work of checking through. In the case where there are conflicts, it shows you exactly where they are. Importantly it shows you the original state of the file, and shows both conflicting pieces of code.
+
+ 
 

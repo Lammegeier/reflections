@@ -3,3 +3,11 @@ A. Yes as I have had a 1 month break due to hospital and work after lesson 2 so 
 
 Q. When would you want to use a remote repository rather than keeping all your work local?
 A. When working on a project with other developers, or from multiple computers/locations. I or we can edit remotely but upload to a central repository. Also helps not to lose work if any machine fails.
+
+Q. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A. You would want to examine the changes first before deciding if you need them, agree with them etc.
+
+
+
+
