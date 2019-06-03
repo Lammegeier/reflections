@@ -14,3 +14,11 @@ Q. What is the benefit of having a copy of the last known state of the remote st
 
 A. You can compare your code to what's on the remote.
 
+Q. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A. Either a messy mix of file storage, with multiple versions of files or directories with numbers or timestamps indicating versions.
+   Or another versioning tool such as svn.
+   Which is easier or harder... well the file thing is the worst... svn is an improvement, though it is very far short of amazing or wonderful.
+   Git may be the same as svn or better, the jurys out. But it IS the most widely used and therefore more worthwhile to use.
+   
+   
