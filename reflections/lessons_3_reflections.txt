@@ -21,4 +21,11 @@ A. Either a messy mix of file storage, with multiple versions of files or direct
    Which is easier or harder... well the file thing is the worst... svn is an improvement, though it is very far short of amazing or wonderful.
    Git may be the same as svn or better, the jurys out. But it IS the most widely used and therefore more worthwhile to use.
    
+Q. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A. I think the benefit of changing in master is speed and simplicity.
+   But the benefit of using a branch is safety, its easier to have people peer review and analyse changes.
+   It's easy to not put bad code in and break a build. Easier to revert.
+   Do work for different versions, customers, releases.
+
    
